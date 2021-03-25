@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDotNetCode.Web", "BlogDotNetCode.Web\BlogDotNetCode.Web.csproj", "{F4D7E3B6-6458-42E9-A1E1-7C2ADF808007}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDotNetCode.Web", "BlogDotNetCode.Web\BlogDotNetCode.Web.csproj", "{F4D7E3B6-6458-42E9-A1E1-7C2ADF808007}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDotNetCode.Models", "BlogDotNetCode.Models\BlogDotNetCode.Models.csproj", "{04056CDC-16F4-4E29-81AF-1F1428ED5369}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDotNetCode.Repository", "BlogDotNetCode.Repository\BlogDotNetCode.Repository.csproj", "{B7150EE5-DD4E-42C1-89AA-C789900C7AEE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{F4D7E3B6-6458-42E9-A1E1-7C2ADF808007}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4D7E3B6-6458-42E9-A1E1-7C2ADF808007}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F4D7E3B6-6458-42E9-A1E1-7C2ADF808007}.Release|Any CPU.Build.0 = Release|Any CPU
+		{04056CDC-16F4-4E29-81AF-1F1428ED5369}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04056CDC-16F4-4E29-81AF-1F1428ED5369}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04056CDC-16F4-4E29-81AF-1F1428ED5369}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04056CDC-16F4-4E29-81AF-1F1428ED5369}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7150EE5-DD4E-42C1-89AA-C789900C7AEE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7150EE5-DD4E-42C1-89AA-C789900C7AEE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7150EE5-DD4E-42C1-89AA-C789900C7AEE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7150EE5-DD4E-42C1-89AA-C789900C7AEE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
