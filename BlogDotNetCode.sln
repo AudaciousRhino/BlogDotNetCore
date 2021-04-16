@@ -9,7 +9,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDotNetCode.Models", "Bl
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDotNetCode.Repository", "BlogDotNetCode.Repository\BlogDotNetCode.Repository.csproj", "{B7150EE5-DD4E-42C1-89AA-C789900C7AEE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDotNetCode.Identity", "BlogDotNetCode.Identity\BlogDotNetCode.Identity.csproj", "{DFF3F68F-715D-4121-8C21-513D9E9E19EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BlogDotNetCode.Identity", "BlogDotNetCode.Identity\BlogDotNetCode.Identity.csproj", "{DFF3F68F-715D-4121-8C21-513D9E9E19EE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlogDotNetCode.Services", "BlogDotNetCode.Services\BlogDotNetCode.Services.csproj", "{C2F8ECF9-09FE-4DA6-B098-EDA5E665635C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{DFF3F68F-715D-4121-8C21-513D9E9E19EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DFF3F68F-715D-4121-8C21-513D9E9E19EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DFF3F68F-715D-4121-8C21-513D9E9E19EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F8ECF9-09FE-4DA6-B098-EDA5E665635C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F8ECF9-09FE-4DA6-B098-EDA5E665635C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F8ECF9-09FE-4DA6-B098-EDA5E665635C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F8ECF9-09FE-4DA6-B098-EDA5E665635C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

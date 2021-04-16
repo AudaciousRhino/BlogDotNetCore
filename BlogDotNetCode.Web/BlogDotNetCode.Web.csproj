@@ -8,4 +8,8 @@
     <WarningLevel>0</WarningLevel>
   </PropertyGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\BlogDotNetCode.Models\BlogDotNetCode.Models.csproj" />
+  </ItemGroup>
+
 </Project>
