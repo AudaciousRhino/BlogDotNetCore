@@ -9,7 +9,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="3.1.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\BlogDotNetCode.Identity\BlogDotNetCode.Identity.csproj" />
     <ProjectReference Include="..\BlogDotNetCode.Models\BlogDotNetCode.Models.csproj" />
+    <ProjectReference Include="..\BlogDotNetCode.Repository\BlogDotNetCode.Repository.csproj" />
+    <ProjectReference Include="..\BlogDotNetCode.Services\BlogDotNetCode.Services.csproj" />
   </ItemGroup>
 
 </Project>

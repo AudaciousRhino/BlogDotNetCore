@@ -14,6 +14,6 @@ namespace BlogDotNetCode.Models.Account
         
         public string Email { get; set; }
         
-        public string token { get; set; }
+        public string Token { get; set; }
     }
 }

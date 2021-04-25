@@ -13,5 +13,6 @@ namespace BlogDotNetCode.Models.Blog
         public DateTime PublishDate { get; set; }
 
         public DateTime UpdateDate { get; set; }
+        public int PhotoId { get; set; }
     }
 }
