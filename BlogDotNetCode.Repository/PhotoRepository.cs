@@ -73,13 +73,13 @@ namespace BlogDotNetCode.Repository
         public async Task<Photo> InsertAsync(PhotoCreate photoCreate, int applicationUserId)
         {
             var dataTable = new DataTable();
-            dataTable.Columns.Add("ImageUrl", typeof(string));
             dataTable.Columns.Add("PublicId", typeof(string));
+            dataTable.Columns.Add("ImageUrl", typeof(string));
             dataTable.Columns.Add("Description", typeof(string));
 
             dataTable.Rows.Add(
+                photoCreate.PublicId,
                 photoCreate.ImageUrl, 
-                photoCreate.PublicId, 
                 photoCreate.Description);
 
             int newPhotoId;
